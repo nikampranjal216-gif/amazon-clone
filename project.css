@@ -1,0 +1,166 @@
+*{
+    color: white;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+
+.logo{
+    height: 50px;
+    width: 120px;
+    background-image: url("amazomlogo.jpg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: centre;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.address1{
+color: #cccccc;
+font-size: 0.88rem;
+margin-left: 15px;
+}
+.address2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.div-icon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    background-color: pink;
+    height: 40px;
+    width: 600px;
+    border-radius: 40px;
+    justify-content: evenly;
+}
+
+.selectsearch{
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    color:black;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none; 
+    justify-content:  space-evenly; 
+}
+
+
+
+.inputsearch{
+    width: 100%;
+    font-size: 1.2rem;
+    border: none; 
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color:orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+span{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.navsecong{
+    font-weight: 700;
+        
+}
+.navsignin{
+    margin-left:75px ;
+    align-items: right;
+}
+
+.return{
+  margin-left: 75px;
+}
+.navcart i{
+    font-size: 35px;
+}
+.navcart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.navpanel{
+    display:flex;
+    align-items:center;
+    font-weight:700;
+}
+
+.panelops p{
+    display:inline;
+    margin-left:15px;
+}
+
+.panelops{
+    width:70%;
+    font-size: 0.85rem;
+}
+
+.deals{
+    font-size:0.9rem;
+    font-weight:700;
+}
+
+.herosection{
+    background-image: url(amazonphoto.png);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+}
+.heromsg{
+    background-color:white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+
+}
+
+.heromsg a{
+    color: #007185;
+
+}
